@@ -8,6 +8,7 @@ pipeline
       steps
       {
         sh 'pip3 install -r requirements.txt'
+        echo ("This Actually Works Wayne")
       }
     }
     stage('Start App')
