@@ -2,10 +2,10 @@
 FROM python:3.7
 
 # Set a working directory inside the container
-WORKDIR /labs
+WORKDIR /app
 
 # Copy your application files into the container
-COPY . /labs
+COPY . /app
 
 # Install any dependencies
 RUN apt update -y
